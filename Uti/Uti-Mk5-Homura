@@ -1,0 +1,60 @@
+#Base background and foreground colors - should have good contrast
+BG=fefefe
+FG=333333
+
+#GTK Menu background and foreground colors - should have good contrast
+MENU_BG=ee7755
+MENU_FG=ffffff
+
+#Cinnamon Main background and foreground colors - should have good contrast
+CINN_BG=ee7751
+CINN_FG=eeeeee
+
+#Selected item background and foreground colors - should have good contrast
+SEL_BG=aa5522
+SEL_FG=eeeeee
+
+#Button background and foreground colors - should have good contrast
+BTN_BG=ee7755
+BTN_FG=ffffff
+
+#Header bar button background and foreground colors - should have good contrast
+HDR_BTN_BG=ffffff
+HDR_BTN_FG=ee7755
+
+#Text box background and foreground colors - should have good contrast
+TXT_BG=fefefe
+TXT_FG=333333
+
+#Caret color for text entry box.
+CARET1_FG=ee7751
+CARET_SIZE=0.05	
+
+#Special colors used in themes. SPECIAL_FG_COLOR should have reasonable contrast with INFO, SUCCESS, WARNING, and ERROR COLORS
+#Typically INFO would be a shade of Blue, SUCCESS - Green, WARNING - Orange and ERROR - Red.
+LINK_COLOR=bb5522
+SPECIAL_FG_COLOR=262626
+INFO_BG_COLOR=999999
+SUCCESS_COLOR=008000
+WARNING_COLOR=FFA500
+ERROR_COLOR=FF9999
+
+#Color used for checkbox, radio button and toggles. If in doubt use the same value as SEL_BG
+ACCENT_BG=aa5522
+
+#Window Manager focused and unfocused borders
+WM_BORDER_FOCUS=ee7751
+WM_BORDER_UNFOCUS=eeeeee
+
+#Other theme attributes
+NAME=Theme_Template
+CINNAMON_OPACITY=0.80			#opacity of Cinnamon theme - value between 0 and 1 required
+GRADIENT=0.1					#gradient modifier - value between 0 and 1 recommended. Values in excess of 2 may cause errors when building the theme
+ROUNDNESS=15 					#roundness of widgets - value between 0 and 20 required
+SPACING=4						#spacing of GTK elements - value between 0 and 20 required
+
+#These attributes allow you to vary the position of the Cinnamon notification.
+#Values are in pixels from the default position near the top of the screen and the right edge of the screen.
+#Please bear in mind that the visual effect of these attributes is screen resolution specific.
+NOTIFICATION_MARGIN_TOP=0
+NOTIFICATION_MARGIN_RIGHT=20
