@@ -4,7 +4,7 @@ FG=333333
 
 #GTK Menu background and foreground colors - should have good contrast
 MENU_BG=ee7755
-MENU_FG=ffffff
+MENU_FG=eeeeee
 
 #Cinnamon Main background and foreground colors - should have good contrast
 CINN_BG=ee7751
@@ -16,11 +16,11 @@ SEL_FG=eeeeee
 
 #Button background and foreground colors - should have good contrast
 BTN_BG=ee7755
-BTN_FG=ffffff
+BTN_FG=502010
 
 #Header bar button background and foreground colors - should have good contrast
-HDR_BTN_BG=ffffff
-HDR_BTN_FG=ee7755
+HDR_BTN_BG=ff8866
+HDR_BTN_FG=502010
 
 #Text box background and foreground colors - should have good contrast
 TXT_BG=fefefe
@@ -58,3 +58,5 @@ SPACING=4						#spacing of GTK elements - value between 0 and 20 required
 #Please bear in mind that the visual effect of these attributes is screen resolution specific.
 NOTIFICATION_MARGIN_TOP=0
 NOTIFICATION_MARGIN_RIGHT=20
+
+
