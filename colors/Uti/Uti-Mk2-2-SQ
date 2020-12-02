@@ -1,33 +1,33 @@
 #Base background and foreground colors - should have good contrast
-BG=351C1C
-FG=DAAA89
+BG=151000
+FG=ff884d
 
 #GTK Menu background and foreground colors - should have good contrast
-MENU_BG=351C1C
-MENU_FG=DAAA89
+MENU_BG=050200
+MENU_FG=ff773d
 
 #Cinnamon Main background and foreground colors - should have good contrast
-CINN_BG=351C1C
-CINN_FG=DAAA89
+CINN_BG=050200
+CINN_FG=ff773d
 
 #Selected item background and foreground colors - should have good contrast
-SEL_BG=B81119
-SEL_FG=351C1C
+SEL_BG=7843B1
+SEL_FG=FFFFFF
 
 #Button background and foreground colors - should have good contrast
-BTN_BG=351C1C
-BTN_FG=DAAA89
+BTN_BG=201100
+BTN_FG=ff884d
 
 #Header bar button background and foreground colors - should have good contrast
-HDR_BTN_BG=351C1C
-HDR_BTN_FG=DAAA89
+HDR_BTN_BG=201100
+HDR_BTN_FG=ff884d
 
 #Text box background and foreground colors - should have good contrast
-TXT_BG=351C1C
-TXT_FG=DAAA89
+TXT_BG=100500
+TXT_FG=dd7722
 
 #Caret color for text entry box.
-CARET1_FG=DAAA89
+CARET1_FG=7843B1
 CARET_SIZE=0.05	
 
 #Special colors used in themes. SPECIAL_FG_COLOR should have reasonable contrast with INFO, SUCCESS, WARNING, and ERROR COLORS
@@ -40,18 +40,18 @@ WARNING_COLOR=FFFF00
 ERROR_COLOR=FF0000
 
 #Color used for checkbox, radio button and toggles. If in doubt use the same value as SEL_BG
-ACCENT_BG=DAAA89
+ACCENT_BG=7843B1
 
 #Window Manager focused and unfocused borders
-WM_BORDER_FOCUS=DAAA89
-WM_BORDER_UNFOCUS=351C1C
+WM_BORDER_FOCUS=774422
+WM_BORDER_UNFOCUS=333333
 
 #Other theme attributes
 NAME=Theme_Template
 CINNAMON_OPACITY=0.7			#opacity of Cinnamon theme - value between 0 and 1 required
-GRADIENT=0.1					#gradient modifier - value between 0 and 1 recommended. Values in excess of 2 may cause errors when building the theme
-ROUNDNESS=8 					#roundness of widgets - value between 0 and 20 required
-SPACING=2						#spacing of GTK elements - value between 0 and 20 required
+GRADIENT=0					#gradient modifier - value between 0 and 1 recommended. Values in excess of 2 may cause errors when building the theme
+ROUNDNESS=3 					#roundness of widgets - value between 0 and 20 required
+SPACING=3						#spacing of GTK elements - value between 0 and 20 required
 
 #These attributes allow you to vary the position of the Cinnamon notification.
 #Values are in pixels from the default position near the top of the screen and the right edge of the screen.
