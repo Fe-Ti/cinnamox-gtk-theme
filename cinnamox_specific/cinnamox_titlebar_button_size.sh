@@ -66,7 +66,7 @@ do
     esac
     break
 done
-sed -i "s|$CURRENT|$NEWSIZE|g" metacity-theme-3.xml;
+gsed -i "s|$CURRENT|$NEWSIZE|g" metacity-theme-3.xml;
 echo "";
 echo "Theme updated.";
 echo "";

@@ -77,40 +77,40 @@ function build_theme {
     cp "$WORKDIR/cinnamox_specific/LICENSE" "$BUILDDIR/$THEMENAME/LICENSE";
     cp "$WORKDIR/cinnamox_specific/README.md" "$BUILDDIR/$THEMENAME/README.md";
     cd "$BUILDDIR/$THEMENAME/scripts" || exit;
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_titlebar_button_size.sh;
-    sed -i "s|#LIGHTBG|$LIGHTBG|g" cinnamox_transparency.sh;
-    sed -i "s|#LOWTRANSLIGHTBG|$LOWTRANSLIGHTBG|g" cinnamox_transparency.sh;
-    sed -i "s|#MODTRANSLIGHTBG|$MODTRANSLIGHTBG|g" cinnamox_transparency.sh;
-    sed -i "s|#HIGHTRANSLIGHTBG|$HIGHTRANSLIGHTBG|g" cinnamox_transparency.sh;
-    sed -i "s|#DARKBG|$DARKBG|g" cinnamox_transparency.sh;
-    sed -i "s|#LOWTRANSDARKBG|$LOWTRANSDARKBG|g" cinnamox_transparency.sh;
-    sed -i "s|#MODTRANSDARKBG|$MODTRANSDARKBG|g" cinnamox_transparency.sh;
-    sed -i "s|#HIGHTRANSDARKBG|$HIGHTRANSDARKBG|g" cinnamox_transparency.sh;
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_transparency.sh;
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_fontsize.sh;
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_toggle_cinnamon.sh;
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_toggle_GTK2_HIDPI.sh;
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_enable_qt5ct.sh;
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_toggle_menufix.sh;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_titlebar_button_size.sh;
+    gsed -i "s|#LIGHTBG|$LIGHTBG|g" cinnamox_transparency.sh;
+    gsed -i "s|#LOWTRANSLIGHTBG|$LOWTRANSLIGHTBG|g" cinnamox_transparency.sh;
+    gsed -i "s|#MODTRANSLIGHTBG|$MODTRANSLIGHTBG|g" cinnamox_transparency.sh;
+    gsed -i "s|#HIGHTRANSLIGHTBG|$HIGHTRANSLIGHTBG|g" cinnamox_transparency.sh;
+    gsed -i "s|#DARKBG|$DARKBG|g" cinnamox_transparency.sh;
+    gsed -i "s|#LOWTRANSDARKBG|$LOWTRANSDARKBG|g" cinnamox_transparency.sh;
+    gsed -i "s|#MODTRANSDARKBG|$MODTRANSDARKBG|g" cinnamox_transparency.sh;
+    gsed -i "s|#HIGHTRANSDARKBG|$HIGHTRANSDARKBG|g" cinnamox_transparency.sh;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_transparency.sh;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_fontsize.sh;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_toggle_cinnamon.sh;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_toggle_GTK2_HIDPI.sh;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_enable_qt5ct.sh;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamox_toggle_menufix.sh;
     cd "$BUILDDIR/$THEMENAME/cinnamon" || exit;
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamon.css;
-    sed -i "s|#VARIANT|Transparency: None|g" cinnamon.css;
-    sed -i "s|#FONTSIZE|System controlled|g" cinnamon.css;
-    sed -i "s|#THEMEDESCRIPTION|$DESCRIPTION|g" cinnamon.css;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamon.css;
+    gsed -i "s|#VARIANT|Transparency: None|g" cinnamon.css;
+    gsed -i "s|#FONTSIZE|System controlled|g" cinnamon.css;
+    gsed -i "s|#THEMEDESCRIPTION|$DESCRIPTION|g" cinnamon.css;
     echo "stage {}" >> cinnamon.css
     echo ".menu-selected-app-box {}" >> cinnamon.css
-    sed -i "s|#THEMENAME|$THEMENAME|g" cinnamon_old.css;
-    sed -i "s|#VARIANT|Transparency: None|g" cinnamon_old.css;
-    sed -i "s|#FONTSIZE|System controlled|g" cinnamon_old.css;
-    sed -i "s|#THEMEDESCRIPTION|$DESCRIPTION|g" cinnamon_old.css;   
+    gsed -i "s|#THEMENAME|$THEMENAME|g" cinnamon_old.css;
+    gsed -i "s|#VARIANT|Transparency: None|g" cinnamon_old.css;
+    gsed -i "s|#FONTSIZE|System controlled|g" cinnamon_old.css;
+    gsed -i "s|#THEMEDESCRIPTION|$DESCRIPTION|g" cinnamon_old.css;   
     echo "stage {}" >> cinnamon_old.css
     echo ".menu-selected-app-box {}" >> cinnamon_old.css
     cd "$BUILDDIR/$THEMENAME" || exit;
-    sed -i "s|#THEMENAME|$THEMENAME|g" info.json;
-    sed -i "s|#THEMEDESCRIPTION|$DESCRIPTION|g" info.json;
-    sed -i "s|#THEMENAME|$THEMENAME|g" README.md;
-    sed -i "s|#THEMEDESCRIPTION|$DESCRIPTION|g" README.md;
-    sed -i "s|#THEMESHORT|$THEMESHORT|g" README.md;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" info.json;
+    gsed -i "s|#THEMEDESCRIPTION|$DESCRIPTION|g" info.json;
+    gsed -i "s|#THEMENAME|$THEMENAME|g" README.md;
+    gsed -i "s|#THEMEDESCRIPTION|$DESCRIPTION|g" README.md;
+    gsed -i "s|#THEMESHORT|$THEMESHORT|g" README.md;
     cd "$CURRENTDIR" || exit;
     echo "Moving from $BUILDDIR to $THEMEDIR";
     rm -r "$THEMEDIR/$THEMENAME"

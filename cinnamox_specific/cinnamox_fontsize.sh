@@ -82,8 +82,8 @@ do
     esac
     break
 done
-sed -i "s|$CURRENTDESC|$NEWDESC|g" cinnamon.css;
-sed -i "s|$CURRENTFONT|$NEWFONT|g" cinnamon.css;
+gsed -i "s|$CURRENTDESC|$NEWDESC|g" cinnamon.css;
+gsed -i "s|$CURRENTFONT|$NEWFONT|g" cinnamon.css;
 echo "";
 echo "Theme updated.";
 echo "";

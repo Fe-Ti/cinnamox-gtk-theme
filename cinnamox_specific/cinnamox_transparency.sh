@@ -64,9 +64,9 @@ do
     esac
     break
 done
-sed -i "s|$LIGHTBGC|$LIGHTBGN|g" cinnamon.css;
-sed -i "s|$DARKBGC|$DARKBGN|g" cinnamon.css;
-sed -i "s|$CURRENT|$CHOICE|g" cinnamon.css;
+gsed -i "s|$LIGHTBGC|$LIGHTBGN|g" cinnamon.css;
+gsed -i "s|$DARKBGC|$DARKBGN|g" cinnamon.css;
+gsed -i "s|$CURRENT|$CHOICE|g" cinnamon.css;
 echo "";
 echo "Theme updated.";
 echo "";

@@ -15,10 +15,10 @@ if ! grep -q "$THEMENAME" cinnamon.css; then
     exit 1;
 fi
 if grep -Fq "$MENUDEFAULT" cinnamon.css; then
-    sed -i "s|$MENUDEFAULT|$MENUFIX|g" cinnamon.css;
+    gsed -i "s|$MENUDEFAULT|$MENUFIX|g" cinnamon.css;
     MESSAGE="Menu app description fix applied."
 elif grep -q "$MENUFIX" cinnamon.css; then
-    sed -i "s|$MENUFIX|$MENUDEFAULT|g" cinnamon.css;
+    gsed -i "s|$MENUFIX|$MENUDEFAULT|g" cinnamon.css;
     MESSAGE="Menu app description fix reverted."
 else 
     echo "There is a problem. No string $MENUDEFAULT or $MENUFIX in cinnamon.css";

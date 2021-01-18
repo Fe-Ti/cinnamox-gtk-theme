@@ -258,7 +258,7 @@ done
 
 cd "$DEST_PATH"
 for FILEPATH in "${PATHLIST[@]}"; do
-	find $(echo "${FILEPATH}" | sed -e 's/src\///g' ) -type f -exec sed -i'' \
+	find $(echo "${FILEPATH}" | gsed -e 's/src\///g' ) -type f -exec gsed -i'' \
 		-e 's/%BG%/'"$BG"'/g' \
 		-e 's/%FG%/'"$FG"'/g' \
 		-e 's/%SEL_BG%/'"$SEL_BG"'/g' \
@@ -347,13 +347,13 @@ if [[ ${UNITY_DEFAULT_LAUNCHER_STYLE} == "true" ]] ; then
 fi
 
 if [[ ${MAKE_GTK3} = 1 ]]; then
-	make ${MAKE_OPTS}
+	gmake ${MAKE_OPTS}
 fi
 
 rm -r ./Makefile gtk-3.*/scss || true
 
 for FILEPATH in "${SVG_PREVIEWS[@]}"; do
-	rsvg-convert --format=png -o $(sed -e 's/svg$/png/' <<< "${FILEPATH}") "${FILEPATH}"
+	rsvg-convert --format=png -o $(gsed -e 's/svg$/png/' <<< "${FILEPATH}") "${FILEPATH}"
 	rm "${FILEPATH}"
 done
 
