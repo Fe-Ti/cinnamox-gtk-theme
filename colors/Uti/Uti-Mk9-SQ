@@ -1,12 +1,12 @@
 #BGs
-#130200
+#240402
 #510D00
 
 #FGs 
 #FFC39C
 
 #Base background and foreground colors - should have good contrast
-BG=130200
+BG=240402
 FG=FFC39C
 
 #GTK Menu background and foreground colors - should have good contrast
@@ -30,12 +30,12 @@ HDR_BTN_BG=510D00
 HDR_BTN_FG=FFC39C
 
 #Text box background and foreground colors - should have good contrast
-TXT_BG=130200
+TXT_BG=240402
 TXT_FG=FFC39C
 
 #Caret color for text entry box.
-CARET1_FG=510D00
-CARET_SIZE=0.1	
+CARET1_FG=EEA47C
+CARET_SIZE=0.1
 
 #Special colors used in themes. SPECIAL_FG_COLOR should have reasonable contrast with INFO, SUCCESS, WARNING, and ERROR COLORS
 #Typically INFO would be a shade of Blue, SUCCESS - Green, WARNING - Orange and ERROR - Red.
@@ -50,8 +50,8 @@ ERROR_COLOR=FF0000
 ACCENT_BG=610E00
 
 #Window Manager focused and unfocused borders
-WM_BORDER_FOCUS=510D00
-WM_BORDER_UNFOCUS=130200
+WM_BORDER_FOCUS=240402
+WM_BORDER_UNFOCUS=510D00
 
 #Other theme attributes
 NAME=Theme_Template
