@@ -1,6 +1,7 @@
 #BGs
 #240402
 #510D00
+#1A0300
 
 #FGs 
 #FFC39C
@@ -50,11 +51,11 @@ ERROR_COLOR=FF0000
 ACCENT_BG=610E00
 
 #Window Manager focused and unfocused borders
-WM_BORDER_FOCUS=240402
-WM_BORDER_UNFOCUS=510D00
+WM_BORDER_FOCUS=FFC39C
+WM_BORDER_UNFOCUS=240402
 
 #Other theme attributes
-NAME=Theme_Template
+NAME=Uti-Mk9
 CINNAMON_OPACITY=0.7			#opacity of Cinnamon theme - value between 0 and 1 required
 GRADIENT=0.2					#gradient modifier - value between 0 and 1 recommended. Values in excess of 2 may cause errors when building the theme
 ROUNDNESS=3 					#roundness of widgets - value between 0 and 20 required

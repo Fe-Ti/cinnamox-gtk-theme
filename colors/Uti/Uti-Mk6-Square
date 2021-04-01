@@ -47,7 +47,7 @@ WM_BORDER_FOCUS=000000
 WM_BORDER_UNFOCUS=555555
 
 #Other theme attributes
-NAME=Theme_Template
+NAME=Uti-Mk6
 CINNAMON_OPACITY=0.7			#opacity of Cinnamon theme - value between 0 and 1 required
 GRADIENT=0					#gradient modifier - value between 0 and 1 recommended. Values in excess of 2 may cause errors when building the theme
 ROUNDNESS=3 					#roundness of widgets - value between 0 and 20 required
