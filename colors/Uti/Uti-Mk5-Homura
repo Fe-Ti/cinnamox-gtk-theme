@@ -15,7 +15,7 @@ SEL_BG=DD7731
 SEL_FG=EEEEEE
 
 #Button background and foreground colors - should have good contrast
-BTN_BG=DD7731
+BTN_BG=EDDCD7
 BTN_FG=0F002F
 
 #Header bar button background and foreground colors - should have good contrast
@@ -50,7 +50,7 @@ WM_BORDER_UNFOCUS=AA5522
 NAME=Uti-Mk5
 CINNAMON_OPACITY=0.80			#opacity of Cinnamon theme - value between 0 and 1 required
 GRADIENT=0.1					#gradient modifier - value between 0 and 1 recommended. Values in excess of 2 may cause errors when building the theme
-ROUNDNESS=8 					#roundness of widgets - value between 0 and 20 required
+ROUNDNESS=5				#roundness of widgets - value between 0 and 20 required
 SPACING=2						#spacing of GTK elements - value between 0 and 20 required
 
 #These attributes allow you to vary the position of the Cinnamon notification.
