@@ -1,38 +1,38 @@
 #Base background and foreground colors - should have good contrast
-BG=fefefe
+BG=EEEEEE
 FG=333333
 
 #GTK Menu background and foreground colors - should have good contrast
-MENU_BG=ee7755
-MENU_FG=eeeeee
+MENU_BG=D46132
+MENU_FG=EEEEEE
 
 #Cinnamon Main background and foreground colors - should have good contrast
-CINN_BG=ee7751
-CINN_FG=eeeeee
+CINN_BG=BB5531
+CINN_FG=EEEEEE
 
 #Selected item background and foreground colors - should have good contrast
-SEL_BG=aa5522
-SEL_FG=eeeeee
+SEL_BG=DD7731
+SEL_FG=EEEEEE
 
 #Button background and foreground colors - should have good contrast
-BTN_BG=ee7755
-BTN_FG=502010
+BTN_BG=D46132
+BTN_FG=0F002F
 
 #Header bar button background and foreground colors - should have good contrast
-HDR_BTN_BG=ff8866
-HDR_BTN_FG=502010
+HDR_BTN_BG=D46132
+HDR_BTN_FG=0F002F
 
 #Text box background and foreground colors - should have good contrast
-TXT_BG=fefefe
+TXT_BG=EEEEEE
 TXT_FG=333333
 
 #Caret color for text entry box.
-CARET1_FG=ee7751
+CARET1_FG=BB5531
 CARET_SIZE=0.05	
 
 #Special colors used in themes. SPECIAL_FG_COLOR should have reasonable contrast with INFO, SUCCESS, WARNING, and ERROR COLORS
 #Typically INFO would be a shade of Blue, SUCCESS - Green, WARNING - Orange and ERROR - Red.
-LINK_COLOR=bb5522
+LINK_COLOR=BB5522
 SPECIAL_FG_COLOR=262626
 INFO_BG_COLOR=999999
 SUCCESS_COLOR=008000
@@ -40,11 +40,11 @@ WARNING_COLOR=FFA500
 ERROR_COLOR=FF9999
 
 #Color used for checkbox, radio button and toggles. If in doubt use the same value as SEL_BG
-ACCENT_BG=aa5522
+ACCENT_BG=DD7731
 
 #Window Manager focused and unfocused borders
-WM_BORDER_FOCUS=ee7751
-WM_BORDER_UNFOCUS=eeeeee
+WM_BORDER_FOCUS=BB5531
+WM_BORDER_UNFOCUS=AA5522
 
 #Other theme attributes
 NAME=Uti-Mk5
