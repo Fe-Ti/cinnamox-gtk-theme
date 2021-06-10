@@ -60,6 +60,10 @@ do
 			OPTION_GTK2_HIDPI="${2}"
 			shift
 		;;
+		-n|--icon-theme)
+			ICON_THEME="${2}"
+			shift
+		;;
 		*)
 			if [[ "${1}" == -* ]] || [[ ${THEME-} ]]; then
 				echo "unknown option ${1}"
@@ -74,6 +78,11 @@ done
 
 if [[ -z "${THEME:-}" ]] ; then
 	print_usage
+fi
+
+if [[ -z "${ICON_THEME:-}" ]] ; then
+	echo Using default icon theme
+	ICON_THEME=Adwaita
 fi
 
 PATHLIST=(
@@ -319,6 +328,7 @@ for FILEPATH in "${PATHLIST[@]}"; do
 		-e 's/%SUCCESS_COLOR%/'"$SUCCESS_COLOR"'/g' \
 		-e 's/%WARNING_COLOR%/'"$WARNING_COLOR"'/g' \
 		-e 's/%INFO_BG_COLOR%/'"$INFO_BG_COLOR"'/g' \
+		-e 's/%ICON_THEME%/'"$ICON_THEME"'/g' \
 		{} \; ;
 done
 

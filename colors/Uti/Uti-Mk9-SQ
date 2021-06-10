@@ -19,7 +19,7 @@ CINN_BG=510D00
 CINN_FG=FFC39C
 
 #Selected item background and foreground colors - should have good contrast
-SEL_BG=610E00
+SEL_BG=711E10
 SEL_FG=FFC39C
 
 #Button background and foreground colors - should have good contrast
