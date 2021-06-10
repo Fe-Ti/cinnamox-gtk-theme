@@ -50,7 +50,7 @@ sudo pacman -S --needed bash grep sed bc glib2 gdk-pixbuf2 sassc gtk-engine-murr
 
 Enter this command in a termimal to install the dependencies in an Ubuntu based distro.
 ```
-sudo apt install libgdk-pixbuf2.0-dev libxml2-utils gtk2-engines-murrine librsvg2-bin
+sudo apt install bc make libgdk-pixbuf2.0-dev libxml2-utils gtk2-engines-murrine librsvg2-bin
 ```
 
 `sassc>=3.4` & `libsass0>=3.4` are available in the Ubuntu repos for version 17.10 'artful' and later. Ubuntu 17.10+ and Linux Mint 19+ users can enter this command into a terminal to install.
