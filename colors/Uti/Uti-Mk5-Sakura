@@ -15,8 +15,8 @@ SEL_BG=aa3333
 SEL_FG=eeeeee
 
 #Button background and foreground colors - should have good contrast
-BTN_BG=ee6565
-BTN_FG=ffffff
+BTN_BG=EEC1CC
+BTN_FG=1F002F
 
 #Header bar button background and foreground colors - should have good contrast
 HDR_BTN_BG=ffffff
@@ -28,7 +28,6 @@ TXT_FG=333333
 
 #Caret color for text entry box.
 CARET1_FG=ee5151
-CARET_SIZE=0.05	
 
 #Special colors used in themes. SPECIAL_FG_COLOR should have reasonable contrast with INFO, SUCCESS, WARNING, and ERROR COLORS
 #Typically INFO would be a shade of Blue, SUCCESS - Green, WARNING - Orange and ERROR - Red.
@@ -50,11 +49,13 @@ WM_BORDER_UNFOCUS=eeeeee
 NAME=Uti-Mk5
 CINNAMON_OPACITY=0.80			#opacity of Cinnamon theme - value between 0 and 1 required
 GRADIENT=0.1					#gradient modifier - value between 0 and 1 recommended. Values in excess of 2 may cause errors when building the theme
-ROUNDNESS=15 					#roundness of widgets - value between 0 and 20 required
-SPACING=4						#spacing of GTK elements - value between 0 and 20 required
+ROUNDNESS=5				#roundness of widgets - value between 0 and 20 required
+SPACING=2						#spacing of GTK elements - value between 0 and 20 required
+CARET_SIZE=0.05	
 
 #These attributes allow you to vary the position of the Cinnamon notification.
 #Values are in pixels from the default position near the top of the screen and the right edge of the screen.
 #Please bear in mind that the visual effect of these attributes is screen resolution specific.
 NOTIFICATION_MARGIN_TOP=0
 NOTIFICATION_MARGIN_RIGHT=20
+

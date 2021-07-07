@@ -1,62 +1,100 @@
 #Base background and foreground colors - should have good contrast
+
 BG=EEEEEE
 FG=333333
 
+
 #GTK Menu background and foreground colors - should have good contrast
-MENU_BG=D46132
+
+MENU_BG=32D461
 MENU_FG=EEEEEE
 
+
 #Cinnamon Main background and foreground colors - should have good contrast
-CINN_BG=BB5531
+
+CINN_BG=31BB55
 CINN_FG=EEEEEE
 
+
 #Selected item background and foreground colors - should have good contrast
-SEL_BG=DD7731
+
+SEL_BG=31DD77
 SEL_FG=EEEEEE
 
+
 #Button background and foreground colors - should have good contrast
-BTN_BG=EDDCD7
-BTN_FG=0F002F
+
+BTN_BG=D7EDDC
+BTN_FG=2F0F00
+
 
 #Header bar button background and foreground colors - should have good contrast
-HDR_BTN_BG=D46132
-HDR_BTN_FG=0F002F
+
+HDR_BTN_BG=32D461
+HDR_BTN_FG=2F0F00
+
 
 #Text box background and foreground colors - should have good contrast
+
 TXT_BG=EEEEEE
 TXT_FG=333333
 
+
 #Caret color for text entry box.
-CARET1_FG=BB5531
+
+CARET1_FG=31BB55
+
 
 #Special colors used in themes. SPECIAL_FG_COLOR should have reasonable contrast with INFO, SUCCESS, WARNING, and ERROR COLORS
+
 #Typically INFO would be a shade of Blue, SUCCESS - Green, WARNING - Orange and ERROR - Red.
-LINK_COLOR=BB5522
+
+LINK_COLOR=22BB55
 SPECIAL_FG_COLOR=262626
 INFO_BG_COLOR=999999
-SUCCESS_COLOR=008000
-WARNING_COLOR=FFA500
-ERROR_COLOR=FF9999
+SUCCESS_COLOR=000080
+WARNING_COLOR=00FFA5
+ERROR_COLOR=99FF99
+
 
 #Color used for checkbox, radio button and toggles. If in doubt use the same value as SEL_BG
-ACCENT_BG=DD7731
+
+ACCENT_BG=31DD77
+
 
 #Window Manager focused and unfocused borders
-WM_BORDER_FOCUS=BB5531
-WM_BORDER_UNFOCUS=AA5522
+
+WM_BORDER_FOCUS=31BB55
+WM_BORDER_UNFOCUS=22AA55
+
 
 #Other theme attributes
+
 NAME=Uti-Mk5
+
 CINNAMON_OPACITY=0.80			#opacity of Cinnamon theme - value between 0 and 1 required
+
 GRADIENT=0.1					#gradient modifier - value between 0 and 1 recommended. Values in excess of 2 may cause errors when building the theme
+
 ROUNDNESS=5				#roundness of widgets - value between 0 and 20 required
+
 SPACING=2						#spacing of GTK elements - value between 0 and 20 required
+
 CARET_SIZE=0.05	
 
+
+
 #These attributes allow you to vary the position of the Cinnamon notification.
+
 #Values are in pixels from the default position near the top of the screen and the right edge of the screen.
+
 #Please bear in mind that the visual effect of these attributes is screen resolution specific.
+
 NOTIFICATION_MARGIN_TOP=0
+
 NOTIFICATION_MARGIN_RIGHT=20
+
+
+
 
 

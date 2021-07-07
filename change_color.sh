@@ -26,6 +26,8 @@ print_usage() {
 	echo "						which variant of GTK+3 theme to build"
 	echo "	-p 'PATH PATH...', --path-list 'PATH PATH'"
 	echo "						custom paths to theme files"
+	echo "	-n ICON_THEME, --icon-theme ICON_THEME"
+	echo "						customize the icon theme (default is Adwaita)"
 	echo
 	echo "Examples:"
 	echo "       $0 -o my-theme-name ../colors/retro/twg"

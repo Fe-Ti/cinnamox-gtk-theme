@@ -15,7 +15,7 @@ SEL_BG=F08167
 SEL_FG=000515
 
 #Button background and foreground colors - should have good contrast
-BTN_BG=F99779
+BTN_BG=FFEEE8
 BTN_FG=000515
 
 #Header bar button background and foreground colors - should have good contrast
